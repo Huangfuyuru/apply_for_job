@@ -1,5 +1,5 @@
 const express = require('express'),
-      router = express.Router,
+      router = express.Router(),
       qs = require('querystring'),
       url = require('url'),
       bodyParser = require('body-parser');

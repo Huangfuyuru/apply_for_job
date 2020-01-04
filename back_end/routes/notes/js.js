@@ -11,4 +11,4 @@ router.get('/',async function(req,res,next){
     res.json('hello')
 })
 
-module.export = router;
+module.exports = router;
