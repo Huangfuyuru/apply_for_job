@@ -10,3 +10,5 @@ router.use(bodyParser.json());
 router.get('/',async function(req,res,next){
     res.json('hello')
 })
+
+module.export = router;

@@ -10,3 +10,5 @@ router.use(bodyParser.json());
 const js = require('./notes/js');
 
 router.use('/js',js);
+
+module.exports = router;
